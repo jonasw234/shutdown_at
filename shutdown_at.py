@@ -35,7 +35,7 @@ def main(argv):
     if shutdown_time < now:
         shutdown_time.replace(day=shutdown_time.day+1)
     difference = (shutdown_time - now).seconds
-    os.system('shutdown -s -f -t ' + str(difference))
+    os.system('powershell.exe -WindowStyle Hidden -Command "sleep {}; shutdown -s -f -t 0"'.format(difference))
     return 0
 
 
