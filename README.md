@@ -1,6 +1,8 @@
 # shutdown_at
 Shutdown computer at a specific time
 
+Check the releases for a compiled version that doesn’t need a Python installation.
+
 Wrapper around the Windows shutdown command.
  
 Usage:
