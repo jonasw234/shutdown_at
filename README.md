@@ -1,4 +1,6 @@
 # shutdown_at
+*Deprecated:* Functionality has been merged into [https://github.com/jonasw234/shutdown]
+
 Shutdown computer at a specific time
 
 Check the releases for a compiled version that doesn’t need a Python installation.
